@@ -5,64 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style_home.css">
     <title>Ômega Bank</title>
-    <!--Import Bootstrap CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    
-    <!--Fonts Import-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
 
 </head>
 <body>
     
-    <header class="align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <header class="align-items-center p-3 px-md-4 mb-3 bg-light border-bottom shadow-sm">
                     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <h1 class="logo-text">Ωmega Bank</h1>
-                <!--<img src="https://cdn-images-1.medium.com/max/1200/1*EGF3tCyOPIiYy3zfyg8HpA.png" class="img-fluid" width="60px" alt="">-->
+        <div id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-4">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand logo m-0" href="#">
+                        Ωmega Bank
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html">Logar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="signup.html">Cadastre-se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#/">Página Inicial</a>
 
-                    <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id = "login_button" href="#/login">Entrar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#/signup">Se inscrever</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#/dash">Dashboard</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
 
     
     </header>
@@ -76,13 +58,13 @@
                 <div class="card shadow">
                     <h2 class="mt-5 mb-4 text-center">Bem vindo(a) ao Ωmega Bank!</h2>
                     <div class="fluid text-center pt-5">
-                        <p>Seja bem vindo(a) ao Ωmega Bank!</p>
-                        <p>Clique <a href="#/login.html">aqui</a> para abrir a página de login</p>
+                        <p>Bem vindo(a) ao Ωmega Bank, seu último destino quando se trata de bancos!</p>
+                        <p>Se for um cliente, clique <a href="#/login.html">aqui</a> para abrir a página de login.</p>
+                        <p>Caso queira conhecer mais sobre nosso banco, <a href="#bank-information">siga abaixo</a> para um tour sobre nossa instituição!</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 m-auto p-3">
-
                 <!--<img src="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy.png" class="img-fluid m-auto" width="100%" alt="Imagem responsiva">-->
                 <img src="./img/bank-logo.png" class="img-fluid m-auto" width="100%" alt="Desafio 6">
             </div>
@@ -91,12 +73,52 @@
 
 
 
-    <div class="container-parallax parallax-img-v1">
+    <div id="bank-information" class="container-parallax parallax-img-v1">
         <div class="container content-default text-center content-align content-parallax-data">
-            <h2>Container with Parallax</h2>
-            <p>Text</p>
+
+            <div class="card rounded">
+                <h2 class="logo">Vantagens de usar o Ômega Bank</h2>
+                
+                <div class="d-flex flex-row">
+                    <div class="p-2">
+                       <div class="card">
+                          <img class="card-img" src="https://image.freepik.com/free-vector/financial-investments-stock-market_101179-280.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                             <h5 class="card-title">Investimentos conscientes</h5>
+                             <p class="card-text">Nunca brincaremos com seu dinheiro. Só sugerimos os investimentos que nós mesmos faríamos, pois não queremos que você tenha prejuízos.</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="p-2">
+                       <div class="card">
+                          <img class="card-img2 rounded mx-auto d-block" src="https://media.istockphoto.com/photos/female-hand-holding-piggy-bank-save-money-and-financial-investment-picture-id1025332648" class="card-img-top" alt="...">
+                          <div class="card-body">
+                             <h5 class="card-title">Previdência</h5>
+                             <p class="card-text">Aqui pensamos no longo prazo. Estamos preparados para ajudar você a preparar sua aposentadoria e aproveitar feliz seus melhores anos de vida.</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="p-2">
+                       <div class="card">
+                          <img class="card-img3" src="https://thumbs.dreamstime.com/b/happy-family-mother-father-children-son-daughter-sunset-nature-150794881.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                             <h5 class="card-title">Família</h5>
+                             <p class="card-text">Aqui focamos em serviços e vantagens que ajudarão sua família a manter uma boa qualidade de vida e viver sem preocupações com burocracias e finanças.</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+            
         </div>
+        
     </div>
+
+
+
+
+
+
 
 
 
@@ -107,7 +129,8 @@
 
 
     <!--Contact Form-->
-    <section>
+
+    <section class="container rounded">
         <div class="shadow m-5 p-4 card">
             <div class="row text-center">
                 <!-- Section Titile -->
@@ -178,6 +201,22 @@
     <footer class="shadow-p my-5 pt-5 text-muted text-center text-small">
         <p>Copyright ÔmegaBank© 2021 - Todos os direitos reservados</p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+    integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/8ac0ce319f.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

@@ -1,35 +1,4 @@
-.dash-contentheading{
-    margin: 30px 0px 40px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#destroy_session, #refresh{
-    background-color: blueviolet;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    border-radius: 100px !important;
-    padding: 5px;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-}
-
-.modal .modal-dialog-aside{
-	min-width: 550px;
-	max-width:100%; height: 100%; margin:0;
-	transform: translate(0); transition: transform .2s;
-}
-
-
-.modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 0;}
-.modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
-.modal.fixed-left .modal-dialog-aside{ margin-left:auto;  transform: translateX(100%); }
-.modal.fixed-right .modal-dialog-aside{ margin-right:auto; transform: translateX(-100%); }
-
-.modal.show .modal-dialog-aside{ transform: translateX(0);  }
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
 
 
 h1,h2,h3
@@ -60,11 +29,6 @@ p{
 }
 
 
-.logo-text
-{
-    color: #003586;
-    font-family: 'Cinzel', serif;
-}
 
 html{
     scroll-behavior: smooth;
@@ -76,7 +40,6 @@ body{
 }
 
 .container-parallax{
-    color: #fff;
     height: 100vh;
     display: flex;
     background-attachment: fixed;
@@ -86,55 +49,9 @@ body{
 }
 
 .content-parallax-data{
-    color: #fff;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-.container-header{
-    text-align: center;
-}
-
-.content-default{
-    padding: 20px;
-}
-
-.content-flex{
-    display: flex;
-}
-
-.content-flexgrid{
-    display: grid;
-}
-
-.content-flex-direction{
-    flex-direction: row;
-}
-
-.flex-wrap{
-    flex: 1;
-    margin: 2px;
-    width: 33%;
-    justify-content: center;
-}
-
-.content-flex-reverse{
-    flex-direction: row-reverse;
-}
-
-.content-space-default{
-    padding: 15px;
-    margin: 2px;
-    border-radius: 5px;
-}
-
-.content-justify
-{
     justify-content: center;
 }
 
@@ -145,3 +62,66 @@ body{
     padding-bottom: -10px;
     /*background-image: url("img/home-parallax.jpg");*/
 }
+
+
+.card-img
+{
+    width: 40%;
+}
+.card-img2
+{
+    width: 100%;
+}
+.card-img3
+{
+    width: 100%;
+}
+
+.logo {
+    color: #003586 !important;
+    font-size: 56px;
+    font-family: "Cinzel", sans-serif !important;
+    margin: 0 auto;
+  }
+
+
+
+  /*Sobreescrevendo o bootstrap*/
+  
+  .accordion-button {
+    color: #003586 !important;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    font-size: 1.1em !important;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .page-title {
+      text-align: center;
+    }
+    .card-img
+    {
+        height: 60%;
+    }
+
+    .flex-cards 
+    {
+        display: flow-root;
+    }
+    .container-parallax{
+        height: 150vh;
+
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .logo {
+      font-size: 20px;
+    }
+    
+    .card-img
+    {
+        height: 30%;
+    }
+  }
