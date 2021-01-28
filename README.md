@@ -1,2 +1,28 @@
-# omega-accenture-academy
-Repositório do Grupo Ômega - Accenture Academy
+<h1 align="center">
+    Ωmega Bank
+</h1>
+
+<p align="center">Projeto desenvolvido pelo Grupo Ômega para o desafio de HTML5 da ACCT2 🎓 (2021). <br/></p>
+
+### 🛠 Tecnologias
+
+Tecnologias utilizadas:
+
+
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+- [BOOTSTRAP](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+
+### Link Netlify
+
+- [Ômega Bank](https://)
+
+### Autores
+
+[<a href="https://github.com/alecanutto" title="GitHub">Alessandra Canuto 🚀 </a>]
+[<a href="https://github.com/bconfessor" title="GitHub">Brian Confessor 🚀 </a>]
+[<a href="https://github.com/kellisonjk" title="GitHub">Kellison Almeida 🚀 </a>]
+[<a href="https://github.com/marianamercier" title="GitHub">Mariana Mercier 🚀 </a>]
+[<a href="https://github.com/raulc27" title="GitHub">Raul Castro 🚀 </a>]
+
