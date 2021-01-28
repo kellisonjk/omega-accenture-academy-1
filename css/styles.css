@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none; /*inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+  color: #003586 !important;
+}
+
+.accordion-conta {
+  padding: 0.5rem 0rem 1rem 0rem !important;
+}
+
+.accordion-conta .lancamentos {
+  overflow-y: scroll;
+  max-height: 40vh;
+  line-height: 2;
+  padding: 0 20px;
+}
+
+.accordion-conta .lancamentos .row:nth-child(odd) {
+  background-color: lavender;
+}
+
+.pagination-row {
+  background-color: white !important;
+}
+
+.accordion-conta .page-link {
+  border: 0 !important;
+}
+
+.header-dash {
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  color: #003586 !important;
+  font-size: 56px !important;
+  font-family: "Cinzel", sans-serif !important;
+  margin: 0 auto;
+}
+
+/*Sobreescrevendo o bootstrap*/
+
+.accordion-button {
+  color: #003586 !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.1em !important;
+}
