@@ -54,7 +54,7 @@ h6 {
 }
 
 .logo {
-  color: #003586;
+  color: #003586 !important;
   font-size: 56px;
   font-family: "Cinzel", sans-serif !important;
   margin: 0 auto;
