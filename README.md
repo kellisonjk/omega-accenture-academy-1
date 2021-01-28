@@ -8,21 +8,18 @@
 
 Tecnologias utilizadas:
 
-
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [BOOTSTRAP](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
-
 ### Link Netlify
 
-- [Ômega Bank](https://)
+- [Ômega Bank](https://omega-accenture-academy-1.netlify.app/)
 
 ### Autores
 
 [<a href="https://github.com/alecanutto" title="GitHub">Alessandra Canuto 🚀 </a>]
 [<a href="https://github.com/bconfessor" title="GitHub">Brian Confessor 🚀 </a>]
-[<a href="https://github.com/kellisonjk" title="GitHub">Kellison Almeida 🚀 </a>]
+[<a href="https://github.com/kellisonjk" title="GitHub">José Kellison 🚀 </a>]
 [<a href="https://github.com/marianamercier" title="GitHub">Mariana Mercier 🚀 </a>]
 [<a href="https://github.com/raulc27" title="GitHub">Raul Castro 🚀 </a>]
-
