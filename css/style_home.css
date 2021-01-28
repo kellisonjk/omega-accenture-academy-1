@@ -32,15 +32,116 @@
 
 
 
+h1,h2,h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.card
+{
+    border-radius: 30px;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.logo-text
+{
+    color: #003586;
+    font-family: 'Cinzel', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-parallax{
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-parallax-data{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
 
+.container-header{
+    text-align: center;
+}
+
+.content-default{
+    padding: 20px;
+}
+
+.content-flex{
+    display: flex;
+}
+
+.content-flexgrid{
+    display: grid;
+}
+
+.content-flex-direction{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex: 1;
+    margin: 2px;
+    width: 33%;
+    justify-content: center;
+}
+
+.content-flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.content-space-default{
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.content-justify
+{
+    justify-content: center;
+}
 
 
-
-
-
-
-
-
+.parallax-img-v1
+{
+    background-image: url("https://thumbs.dreamstime.com/z/asian-mother-daughter-putting-coin-piggy-bank-mom-ki-kid-deposit-account-family-together-saving-money-future-130137683.jpg");
+    padding-bottom: -10px;
+    /*background-image: url("img/home-parallax.jpg");*/
+}
