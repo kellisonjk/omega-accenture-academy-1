@@ -54,8 +54,8 @@ h6 {
 }
 
 .logo {
-  color: #003586 !important;
-  font-size: 56px !important;
+  color: #003586;
+  font-size: 56px;
   font-family: "Cinzel", sans-serif !important;
   margin: 0 auto;
 }
@@ -69,4 +69,16 @@ h6 {
 
 .nav-item {
   font-size: 1.1em !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .page-title {
+    text-align: center;
+  }
+  .operations-group {
+    margin: 10px;
+  }
+  .logo {
+    font-size: 20px;
+  }
 }
