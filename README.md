@@ -14,7 +14,7 @@ Tecnologias utilizadas:
 
 ### 🔗 Acesse em
 
-- <a href="https://omega-accenture-academy-1.netlify.app/">Ômega Bank</a>
+- <a href="https://omega-accenture-academy-1.netlify.app/" target="_blank">Ômega Bank</a>
 
 ### 🧑‍🤝‍🧑 Autores
 
