@@ -71,13 +71,15 @@ h6 {
   font-size: 1.1em !important;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 760px) {
   .page-title {
     text-align: center;
   }
   .operations-group {
     margin: 10px;
   }
+}
+@media only screen and (max-width: 576px) {
   .logo {
     font-size: 20px;
   }
