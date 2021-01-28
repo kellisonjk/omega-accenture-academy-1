@@ -81,4 +81,10 @@ h6 {
   .logo {
     font-size: 20px;
   }
+  .lancamentos {
+    font-size: 0.9em;
+  }
+  .valor-tipo-d {
+    color: red;
+  }
 }
