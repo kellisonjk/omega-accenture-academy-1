@@ -12,7 +12,7 @@ Tecnologias utilizadas:
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [BOOTSTRAP](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
-### Link Netlify
+### 🔗 Acesse em
 
 - [Ômega Bank](https://omega-accenture-academy-1.netlify.app/)
 
@@ -23,3 +23,8 @@ Tecnologias utilizadas:
 [<a href="https://github.com/kellisonjk" title="GitHub">José Kellison 🚀 </a>]
 [<a href="https://github.com/marianamercier" title="GitHub">Mariana Mercier 🚀 </a>]
 [<a href="https://github.com/raulc27" title="GitHub">Raul Castro 🚀 </a>]
+
+\
+\
+\
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c6fa9aa2-578e-4453-ab22-e672fc8deee5/deploy-status)](https://app.netlify.com/sites/omega-accenture-academy-1/deploys)
