@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none; /*inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+.accordion-conta {
+  overflow-y: scroll;
+  max-height: 50vh;
+  line-height: 2;
+}
+
+.accordion-conta .page-link {
+  border: 0 !important;
+}

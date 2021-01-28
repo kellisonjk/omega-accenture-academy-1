@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dashboard :: Omega Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body class="" style="">
+    <div id="header">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light p-3 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    OmegaBank
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="/#/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="/#/dashboard">Dashboard</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Olá, João
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Alterar senha</a></li>
+                                <li><a class="dropdown-item" id="logout">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="container">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="container p-0 mt-2 d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-success" type="button">
+                        Depositar <i class="fas fa-money-check-alt"></i>
+                    </button>
+                    <button class="btn btn-danger me-md-2" type="button">
+                        Transferir <i class="far fa-share-square"></i>
+                    </button>
+                </div>
+                <div class="container p-0 mt-3 gap-2 d-flex justify-content-evenly">
+                    <div class="accordion col-6" id="accordion">
+
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="heading151">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse151" aria-expanded="true" aria-controls="collapse151">
+                                    <div class="col-6 justify-content-start d-flex">
+                                        <div>
+                                            Conta Banco
+                                        </div>
+                                    </div>
+                                    <div class="col-5 justify-content-end d-flex">
+                                        <div class="text-right p-2 w-75 bg-primary rounded-3 text-white">
+                                            Saldo: R$&nbsp;418,00
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse151" class="accordion-collapse collapse show" aria-labelledby="heading151"
+                                data-bs-parent="#accordion" style="">
+                                <div class="accordion-body accordion-conta">
+                                    <div class="row">
+                                        <div class="col-3">2021-01-20</div>
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-danger">D</span></div>
+                                        </div>
+                                        <div class="col-5">Pagamaneto conta de luz</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">2021-01-20</div>
+
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-danger">D</span></div>
+                                        </div>
+                                        <div class="col-5">Pagamaneto conta de água</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">2021-01-15</div>
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-success">R</span></div>
+                                        </div>
+                                        <div class="col-5">Retorno do favor parc 03, obrigado. (por Maria)</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">2020-12-20</div>
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-danger">D</span></div>
+                                        </div>
+                                        <div class="col-5">Pagamaneto conta de água</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">2020-12-01</div>
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-success">R</span></div>
+                                        </div>
+                                        <div class="col-5">Retorno do favor parc 02, obrigado. (por Maria)</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">2020-11-01</div>
+                                        <div class="col-1 justify-content-center d-flex">
+                                            <div><span class="badge bg-success">R</span></div>
+                                        </div>
+                                        <div class="col-5">Retorno do favor parc 01, obrigado. (por Maria)</div>
+                                        <div class="col-3 text-end">R$ 100,00</div>
+                                    </div>
+
+                                    <div class="row d-flex justify-content-center">
+                                        <nav aria-label="Paginação do extrato" class="mt-3">
+                                            <ul class="pagination d-flex justify-content-center">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true"><i
+                                                                class="fas fa-angle-left"></i></span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true"><i
+                                                                class="fas fa-angle-right"></i></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion col-6" id="accordion">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading161">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse161" aria-expanded="true" aria-controls="collapse161">
+                                    <div class="col-6 justify-content-start d-flex">
+                                        <div>
+                                            Conta Corrente
+                                        </div>
+                                    </div>
+                                    <div class="col-5 justify-content-end d-flex">
+                                        <div class="text-right p-2 w-75 bg-primary rounded-3 text-white">
+                                            Saldo: R$&nbsp;0,00
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse161" class="accordion-collapse collapse show" aria-labelledby="heading161"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-body accordion-conta">
+                                    <div class="h-100 text-center">Nenhum lançamento para esta conta</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer id="footer" class="container pt-md-5 pb-md-5 border-top mt-5">
+        <div class="d-flex justify-content-center">
+            &copy; Todos os direitos reservados
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+        integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8ac0ce319f.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
