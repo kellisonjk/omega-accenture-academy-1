@@ -14,9 +14,9 @@ Tecnologias utilizadas:
 
 ### 🔗 Acesse em
 
-- [Ômega Bank](https://omega-accenture-academy-1.netlify.app/)
+- <a href="https://omega-accenture-academy-1.netlify.app/">Ômega Bank</a>
 
-### Autores
+### 🧑‍🤝‍🧑 Autores
 
 [<a href="https://github.com/alecanutto" title="GitHub">Alessandra Canuto 🚀 </a>]
 [<a href="https://github.com/bconfessor" title="GitHub">Brian Confessor 🚀 </a>]
@@ -27,4 +27,4 @@ Tecnologias utilizadas:
 \
 \
 \
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6fa9aa2-578e-4453-ab22-e672fc8deee5/deploy-status)](https://app.netlify.com/sites/omega-accenture-academy-1/deploys)
+<a href="https://app.netlify.com/sites/omega-accenture-academy-1/deploys" target="_blank">![Netlify Status](https://api.netlify.com/api/v1/badges/c6fa9aa2-578e-4453-ab22-e672fc8deee5/deploy-status)</a>
