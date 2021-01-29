@@ -14,7 +14,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
-
   box-sizing: border-box;
 }
 
@@ -27,6 +26,20 @@ h6 {
   margin: 0 !important;
   color: #003586 !important;
 }
+
+/** Menu **/
+#logo {
+  color: #003586 !important;
+  font-size: 56px;
+  font-family: "Cinzel", sans-serif !important;
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-size: 1.1em !important;
+}
+
+/** Gerais **/
 
 .accordion-conta {
   padding: 0.5rem 0rem 1rem 0rem !important;
@@ -55,13 +68,6 @@ h6 {
   border-bottom: 1px solid lightgray;
 }
 
-#logo {
-  color: #003586 !important;
-  font-size: 56px;
-  font-family: "Cinzel", sans-serif !important;
-  margin: 0 auto;
-}
-
 /*Sobreescrevendo o bootstrap*/
 
 .accordion-button {
@@ -69,9 +75,7 @@ h6 {
   font-weight: bold;
 }
 
-.nav-item {
-  font-size: 1.1em !important;
-}
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 760px) {
   .page-title {
@@ -83,9 +87,12 @@ h6 {
 }
 
 @media only screen and (max-width: 576px) {
+  /** Menu **/
   #logo {
     font-size: 20px;
   }
+  /****/
+
   .lancamentos {
     font-size: 0.9em;
   }
