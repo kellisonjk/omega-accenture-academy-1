@@ -18,12 +18,13 @@ html {
 /*------------ ID'S ------------*/
 
 #btn-submit {
-  background-color:#003586;
-  border-radius: 500px;
+  background-color:#003586; 
   border:#003586; 
+  border-radius: 8px;
   color: #fff;
   opacity:0.92;
-  width: 28%;        
+  padding: 6px;
+  width: 18%;  
 }
 
 #btn-submit:hover {
@@ -47,4 +48,5 @@ html {
 .login-text {
   font-family: 'Cinzel', serif;
   font-size: 28px;
+  margin: 0;
 }
