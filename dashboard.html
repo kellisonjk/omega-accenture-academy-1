@@ -14,8 +14,8 @@
 <body>
     <div id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-4">
-            <div class="container">
-                <a class="navbar-brand logo" href="#">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand logo m-0" id="logo" href="#">
                     Ωmega Bank
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,14 +28,18 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Dashboard</a>
+                            <a class="nav-link active" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cadastro.html">Cadastre-se</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Olá, João
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Dados pessoais</a></li>
                                 <li><a class="dropdown-item" href="#">Alterar senha</a></li>
                                 <li><a class="dropdown-item" href="index.html" id="logout">Sair</a></li>
                             </ul>
@@ -52,26 +56,26 @@
                 <div
                     class="container header-dash p-0 pb-2 mt-2 d-md-flex justify-content-sm-between justify-content-md-between  align-items-center">
                     <h4 class="page-title">Extrato de lançamentos das contas</h4>
-                    <div class="operations-group d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-success" type="button">
-                            Depositar <i class="fas fa-money-check-alt"></i>
-                        </button>
+                    <div class="operations-group d-grid gap-2 d-flex justify-content-center justify-content-md-end">
+                        <!--button class="btn btn-success" type="button">
+                            Depositar <i class="ms-3 fas fa-money-check-alt"></i>
+                        </button-->
                         <button class="btn btn-danger me-md-2" type="button">
-                            Transferir <i class="far fa-share-square"></i>
+                            Transferir <i class="ms-3 far fa-share-square"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="container row p-0 mt-3 d-flex  justify-content-sm-between justify-content-evenly">
-                <div class="accordion col-md-6" id="accordion">
+            <div class="container row p-0 m-0 mt-3 d-flex  justify-content-sm-between justify-content-evenly">
+                <div class="accordion col-md-6 mt-2" id="accordion">
 
-                    <div class="accordion-item ">
+                    <div class="accordion-item shadow">
                         <h2 class="accordion-header" id="heading151">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse151" aria-expanded="true" aria-controls="collapse151">
                                 <div class="col-6 justify-content-start d-flex">
                                     <div>
-                                        Conta Banco
+                                        Conta Poupança
                                     </div>
                                 </div>
                                 <div class="col-5 justify-content-end d-flex">
@@ -84,7 +88,7 @@
                         <div id="collapse151" class="accordion-collapse collapse show" aria-labelledby="heading151"
                             data-bs-parent="#accordion">
                             <div class="accordion-body accordion-conta">
-                                <div class="container mb-2">
+                                <div class="container mb-2 p-2">
                                     <div class="container p-0 mt-2 d-grid gap-2 d-md-flex justify-content-md-end">
                                         <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal"
                                             data-bs-target="#modal-filter">
@@ -93,61 +97,61 @@
                                     </div>
                                 </div>
                                 <div class="container lancamentos">
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">20/01/2020</div>
                                         <div class="col-5">Pagamaneto conta de luz</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-danger">D</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 140,00</div>
+                                        <div class="col-3 text-end valor-tipo-d">R$ 140,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">20/01/2020</div>
                                         <div class="col-5">Pagamaneto conta de água</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-danger">D</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 100,00</div>
+                                        <div class="col-3 text-end valor-tipo-d">R$ 100,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">15/01/2020</div>
                                         <div class="col-5">Retorno do favor parc 03, obrigado. (por Maria)</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-success">R</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 500,00</div>
+                                        <div class="col-3 text-end valor-tipo-r">R$ 500,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">20/12/2020</div>
                                         <div class="col-5">Pagamaneto conta de água</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-danger">D</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 130,00</div>
+                                        <div class="col-3 text-end valor-tipo-d">R$ 130,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">01/12/2020</div>
                                         <div class="col-5">Retorno do favor parc 02, obrigado. (por Maria)</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-success">R</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 200,00</div>
+                                        <div class="col-3 text-end valor-tipo-r">R$ 200,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">01/11/2020</div>
                                         <div class="col-5">Retorno do favor parc 01, obrigado. (por Maria)</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-danger">D</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 180,00</div>
+                                        <div class="col-3 text-end valor-tipo-d">R$ 180,00</div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row justify-content-between">
                                         <div class="col-3">20/10/2020</div>
                                         <div class="col-5">Pagamento de internet</div>
                                         <div class="col-1 justify-content-center d-flex d-none d-md-block">
                                             <div><span class="badge bg-danger">D</span></div>
                                         </div>
-                                        <div class="col-3 text-end">R$ 50,00</div>
+                                        <div class="col-3 text-end valor-tipo-d">R$ 50,00</div>
                                     </div>
 
                                 </div>
@@ -176,9 +180,9 @@
                     </div>
                 </div>
 
-                <div class="accordion col-md-6" id="accordion">
+                <div class="accordion col-md-6 mt-2" id="accordion">
 
-                    <div class="accordion-item">
+                    <div class="accordion-item shadow">
                         <h2 class="accordion-header" id="heading161">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse161" aria-expanded="true" aria-controls="collapse161">
@@ -252,9 +256,9 @@
         </div>
     </div>
 
-    <footer id="footer" class="container pt-md-5 pb-md-5 border-top mt-5">
+    <footer id="footer" class="pt-3 pt-md-5 pb-3 pb-md-5 border-top mt-5">
         <div class="d-flex justify-content-center">
-            &copy; Todos os direitos reservados
+            Ômega Bank © 2021
         </div>
 
     </footer>
