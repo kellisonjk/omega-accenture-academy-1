@@ -93,8 +93,12 @@ body{
     margin: 0 auto;
 }
 
-
-
+.title
+{
+    color: #003586 !important;
+    font-family: "Cinzel", sans-serif !important;
+    margin: 0 auto;
+}
 
   /*Sobreescrevendo o bootstrap*/
   
@@ -107,21 +111,19 @@ body{
     font-size: 1.1em !important;
   }
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 769px) {
     .page-title {
       text-align: center;
     }
-    .card-img
+
+    #card-group1 > .card
     {
-        height: 60%;
+        width: 100%;
     }
 
-    .flex-cards 
-    {
-        display: flow-root;
-    }
+
     .container-parallax{
-        height: 150vh;
+        height: 250vh;
 
     }
   }
