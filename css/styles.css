@@ -14,6 +14,8 @@
 
 * {
   font-family: "Roboto", sans-serif;
+
+  box-sizing: border-box;
 }
 
 h1,
@@ -53,7 +55,7 @@ h6 {
   border-bottom: 1px solid lightgray;
 }
 
-.logo {
+#logo {
   color: #003586 !important;
   font-size: 56px;
   font-family: "Cinzel", sans-serif !important;
@@ -71,14 +73,23 @@ h6 {
   font-size: 1.1em !important;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 760px) {
   .page-title {
     text-align: center;
   }
   .operations-group {
     margin: 10px;
   }
-  .logo {
+}
+
+@media only screen and (max-width: 576px) {
+  #logo {
     font-size: 20px;
+  }
+  .lancamentos {
+    font-size: 0.9em;
+  }
+  .valor-tipo-d {
+    color: red;
   }
 }
