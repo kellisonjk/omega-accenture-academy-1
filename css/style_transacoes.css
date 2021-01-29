@@ -1,0 +1,15 @@
+#inputValor{
+    text-align: right;
+}
+
+#inputConta, #inputContaD {
+    text-align: center;
+}
+
+.modal-header {
+    background-color: rgb(231, 241, 255) ;
+}
+
+#floatingTextarea{
+    height: 100px;
+}
