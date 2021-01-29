@@ -55,7 +55,7 @@ h6 {
   border-bottom: 1px solid lightgray;
 }
 
-.logo {
+#logo {
   color: #003586 !important;
   font-size: 56px;
   font-family: "Cinzel", sans-serif !important;
@@ -81,8 +81,9 @@ h6 {
     margin: 10px;
   }
 }
+
 @media only screen and (max-width: 576px) {
-  .logo {
+  #logo {
     font-size: 20px;
   }
   .lancamentos {
